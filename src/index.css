@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Kanit, sans-serif;
+  }
+}
+
+[class^="number-slide"],
+[class*=" number-slide"] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  max-height: 100vh;
+}
+
+.navigation-wrapper {
+  position: relative;
+}
+
+.arrow {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 51, 0.479);
+  padding: 10px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 20px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  fill: #000;
+  cursor: pointer;
+}
+.arrow:hover {
+  background-color: #000;
+  fill: white;
+}
+
+.arrow--left {
+  left: 43%;
+  bottom: -80px;
+}
+
+.arrow--right {
+  left: 52%;
+  bottom: -80px;
+}
+
+/* .arrow--disabled {
+  fill: rgba(255, 255, 255, 0.5);
+} */
