@@ -96,7 +96,7 @@ const WhyChooseUs = () => {
           <h3 className='pt-10 text-lg font-semibold'>
             Why <br /> Choose Us
           </h3>
-          <div className='border-4 grid grid-cols-2 gap-10'>
+          <div className='grid grid-cols-2 gap-10'>
             <div className='mx-20 mt-12 min-h-full relative flex justify-between'>
               <div>
                 <h2 className='text-[100px]'>25k</h2>
@@ -113,14 +113,14 @@ const WhyChooseUs = () => {
                 </p>
               </div>
 
-              <div className='border flex justify-between'>
+              <div className=' flex justify-between'>
                 <h2 className='text-[100px]'>15</h2>
 
                 <h2 className='text-[100px]'>98</h2>
               </div>
             </div>
 
-            <div className='border-2'>
+            <div className=''>
               <img className='' src='/counter-3.webp' alt='' />
             </div>
           </div>
